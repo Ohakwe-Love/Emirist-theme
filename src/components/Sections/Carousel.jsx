@@ -18,20 +18,20 @@ const ScrollingCarousel = () => {
           {/* First set */}
           {slides.map((slide, index) => (
             <div key={`first-${index}`} className="inline-flex items-center mx-8">
-              <h2 className="text-[var(--secondary-color)] text-2xl md:text-3xl lg:text-4xl font-serif">
+              <h2 className="text-black text-2xl md:text-3xl lg:text-4xl font-serif">
                 {slide}
               </h2>
-              <span className="mx-8 text-[var(--secondary-color)] text-2xl">•</span>
+              <span className="mx-8 text-black text-2xl">•</span>
             </div>
           ))}
           
           {/* Duplicate set for seamless loop */}
           {slides.map((slide, index) => (
             <div key={`second-${index}`} className="inline-flex items-center mx-8">
-              <h2 className="text-[var(--secondary-color)] text-2xl md:text-3xl lg:text-4xl font-serif">
+              <h2 className="text-black text-2xl md:text-3xl lg:text-4xl font-serif">
                 {slide}
               </h2>
-              <span className="mx-8 text-[var(--secondary-color)] text-2xl">•</span>
+              <span className="mx-8 text-black text-2xl">•</span>
             </div>
           ))}
         </div>

@@ -34,7 +34,6 @@ const FAQ = () => {
   return (
     <section className="bg-gradient-to-b from-slate-800 to-slate-900 py-20 px-8 border-t border-slate-700">
       <div className="max-w-7xl mx-auto">
-
         <div className="grid lg:grid-cols-2 gap-12 items-start">
 
           {/* Left Side - FAQ */}
@@ -86,12 +85,13 @@ const FAQ = () => {
 
           {/* Right Side - Image */}
           <div className="relative group lg:sticky lg:top-8">
-            <div className="relative overflow-hidden rounded-lg shadow-2xl">
+            <div className="relative overflow-hidden rounded-lg">
               <img
                 src="/src/assets/images/product/5.webp"
                 alt="Luxury Watch Display"
                 className="w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-105"
               />
+
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
 
               {/* Overlay Text */}
@@ -104,10 +104,6 @@ const FAQ = () => {
                 </p>
               </div>
             </div>
-
-            {/* Decorative Element */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-500/10 rounded-lg blur-2xl -z-10"></div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-orange-500/10 rounded-lg blur-2xl -z-10"></div>
           </div>
 
         </div>

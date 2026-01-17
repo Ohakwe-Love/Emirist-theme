@@ -1,0 +1,48 @@
+import Hero from '../components/Sections/Hero';
+import About from '../components/Sections/AboutSection';
+import Collection from '../components/Sections/Collection';
+import FAQ from '../components/Sections/FAQ';
+import Showcase from '../components/Sections/Showcase';
+import Carousel from '../components/Sections/Carousel';
+import Testimonials from '../components/Sections/Testimonials';
+import NewsLetter from '../components/Sections/NewsLetter';
+import Features from '../components/Sections/Features';
+import Topbar from '../components/Layout/Topbar';
+import Footer from '../components/Layout/Footer';
+import Header from '../components/Layout/Header';
+import { Link } from 'react-router-dom';
+import { ChevronRight } from 'lucide-react';
+
+export default function Home() {
+  return (
+    <div>
+      <Topbar />
+      <Header />
+
+      <section className="flex items-center page-hero justify-center h-110 group overflow-hidden relative ">
+        <div className="text-center">
+          <h2 className='text-6xl text-white mb-3'>About</h2>
+
+          <p className='text-2xl'>
+            <Link to='/' className='text-white hover:text-[var(--primary-color)] transition'>Home</Link>
+            <ChevronRight className='inline mx-2 text-white' />
+            <span className='text-[var(--primary-color)]'>About</span>
+          </p>
+        </div>
+      </section>
+      
+
+      <About />
+
+      <Carousel />
+
+      <Showcase />
+
+      <Features />
+
+      <NewsLetter />
+
+      <Footer />
+    </div>
+  );
+}

@@ -47,10 +47,8 @@ const Hero = () => {
 
     return (
         <section className="relative w-full hero-wrapper hero-wrapper overflow-hidden bg-slate-700">
-            {/* Header */}
-            <Header />
-
             <div className="relative w-full h-full">
+                <Header />
                 {slides.map((slide, index) => (
                     <div
                         key={index}
@@ -67,7 +65,7 @@ const Hero = () => {
                         </div>
 
                         {/* Content */}
-                        <div className="relative h-full flex items-center justify-center px-8">
+                        <div className="relative h-full flex items-center justify-center px-2">
                             <div className="max-w-4xl text-center text-white pt-6">
                                 <p className="section-label">
                                     {slide.category}

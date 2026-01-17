@@ -6,7 +6,7 @@ const Topbar = () => {
   return (
     <div>
         {/* // top bar */}
-        <aside className='topbar py-3 hidden sm:block'> 
+        <aside className='topbar py-3 hidden sm:block bg-slate-900'> 
             <div className="container flex justify-between items-center">
                 <SocialIcons />
 

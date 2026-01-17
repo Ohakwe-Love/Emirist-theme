@@ -168,7 +168,7 @@ h1, h2, h3 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .search-input {
@@ -186,10 +186,6 @@ h1, h2, h3 {
     &:focus {
         border-color: var(--primary-color);
     }
-}
-
-.topbar {
-    background:  var(--gradient-background);
 }
 
 header li a:hover {
@@ -210,7 +206,7 @@ header li a:hover {
 }
 
 .hero-wrapper {
-    height: 90vh;
+    height: 100vh;
 }
 
 .hero-wrapper header {
@@ -251,6 +247,10 @@ header li a:hover {
     background-color: var(--primary-color);
 }
 
+.page-hero {
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url('/src/assets/images/hero/main.png') no-repeat center center/cover;
+}
+
 @media (max-width: 768px) {
 
     .hero-wrapper {
@@ -262,7 +262,7 @@ header li a:hover {
     }
 
     section {
-        padding: 20px;
+        padding: auto;
     }
 
     h2 {
