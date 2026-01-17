@@ -1,0 +1,283 @@
+:root {
+    --font-heading-family: "Marcellus", serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 400;
+    --font-heading-scale: 1;
+    --font-h1-size: clamp(38px, calc(70 / 1920 * 100vw), 70px);
+    --font-h2-size: clamp(28px, calc(60 / 1920 * 100vw), 60px);
+    --font-h3-size: clamp(25px, calc(40 / 1920 * 100vw), 40px);
+    --font-h4-size: clamp(22px, calc(40 / 1920 * 100vw), 30px);
+    --font-h5-size: 24px;
+    --font-h6-size: 20px;
+    --font-body-family: "Mulish", sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 700;
+    --font-body-weight-bold: 1000;
+    --font-body-scale: 1;
+    --font-base-size: 16px;
+    --font-additional-family: Nunito, sans-serif;
+    --font-additional-heading-style: normal;
+    --font-additional-heading-weight: 400;
+    --media-padding: px;
+    --media-border-opacity: 0.0;
+    --media-border-width: 0px;
+    --media-radius: 10px;
+    --media-shadow-opacity: 0.0;
+    --media-shadow-horizontal-offset: 0px;
+    --media-shadow-vertical-offset: 4px;
+    --media-shadow-blur-radius: 5px;
+    --page-width: 164rem;
+    --page-width-laptop: 120rem;
+    --page-width-tab: 100rem;
+    --page-full-width-spacing: 4%;
+    --page-width-margin: 0rem;
+    --product-card-image-padding: 0.0rem;
+    --product-card-content-padding: 1.0rem;
+    --product-card-corner-radius: 1.0rem;
+    --product-card-text-alignment: center;
+    --product-card-border-width: 0.0rem;
+    --product-card-border-opacity: 0.0;
+    --product-card-shadow-opacity: 0.0;
+    --product-card-shadow-visible: 0;
+    --product-card-shadow-horizontal-offset: 0.0rem;
+    --product-card-shadow-vertical-offset: 0.0rem;
+    --product-card-shadow-blur-radius: 3.0rem;
+    --collection-card-image-padding: 0.0rem;
+    --collection-card-content-padding: 1.0rem;
+    --collection-card-corner-radius: 1.0rem;
+    --collection-card-text-alignment: center;
+    --collection-card-border-width: 0.0rem;
+    --collection-card-border-opacity: 0.0;
+    --collection-card-shadow-opacity: 0.0;
+    --collection-card-shadow-visible: 0;
+    --collection-card-shadow-horizontal-offset: 0.0rem;
+    --collection-card-shadow-vertical-offset: 0.0rem;
+    --collection-card-shadow-blur-radius: 0.0rem;
+    --blog-card-image-padding: 0.0rem;
+    --blog-card-content-padding: 1.0rem;
+    --blog-card-corner-radius: 1.0rem;
+    --blog-card-text-alignment: left;
+    --blog-card-border-width: 0.0rem;
+    --blog-card-border-opacity: 0.0;
+    --blog-card-shadow-opacity: 0.0;
+    --blog-card-shadow-visible: 0;
+    --blog-card-shadow-horizontal-offset: 0.0rem;
+    --blog-card-shadow-vertical-offset: 0.0rem;
+    --blog-card-shadow-blur-radius: 0.0rem;
+    --badge-corner-radius: 0.6rem;
+    --sale_badge_color: 221, 114, 16;
+    --soldout_badge_color: 221, 114, 16;
+    --sale_badge_color_text: 255, 255, 255;
+    --soldout_badge_color_text: 255, 255, 255;
+    --new_badge_color: 18, 18, 18;
+    --new_badge_color_text: 255, 255, 255;
+    --popup-border-width: 0px;
+    --popup-border-opacity: 0.0;
+    --popup-corner-radius: 10px;
+    --popup-shadow-opacity: 0.3;
+    --popup-shadow-horizontal-offset: 0px;
+    --popup-shadow-vertical-offset: 4px;
+    --popup-shadow-blur-radius: 10px;
+    --drawer-border-width: 1px;
+    --drawer-border-opacity: 0.45;
+    --drawer-shadow-opacity: 0.0;
+    --drawer-shadow-horizontal-offset: 0px;
+    --drawer-shadow-vertical-offset: 4px;
+    --drawer-shadow-blur-radius: 0px;
+    --spacing-sections-desktop: 0px;
+    --spacing-sections-mobile: 0px;
+    --grid-desktop-vertical-spacing: 20px;
+    --grid-desktop-horizontal-spacing: 20px;
+    --grid-mobile-vertical-spacing: 10px;
+    --grid-mobile-horizontal-spacing: 10px;
+    --sidebar-width: 410px;
+    --text-boxes-border-opacity: 0.1;
+    --text-boxes-border-width: 0px;
+    --text-boxes-radius: 0px;
+    --text-boxes-shadow-opacity: 0.0;
+    --text-boxes-shadow-horizontal-offset: 0px;
+    --text-boxes-shadow-vertical-offset: 4px;
+    --text-boxes-shadow-blur-radius: 5px;
+    --buttons-radius: 30px;
+    --buttons-radius-outset: 30px;
+    --buttons-border-width: 0px;
+    --buttons-border-opacity: 0.0;
+    --buttons-shadow-opacity: 0.0;
+    --buttons-shadow-horizontal-offset: 0px;
+    --buttons-shadow-vertical-offset: 0px;
+    --buttons-shadow-blur-radius: 0px;
+    --buttons-border-offset: 0px;
+    --inputs-radius: 30px;
+    --inputs-border-width: 1px;
+    --inputs-border-opacity: 0.0;
+    --inputs-shadow-opacity: 0.0;
+    --inputs-shadow-horizontal-offset: 0px;
+    --inputs-margin-offset: 0px;
+    --inputs-shadow-vertical-offset: 0px;
+    --inputs-shadow-blur-radius: 0px;
+    --inputs-radius-outset: 31px;
+    --color-input: 243, 243, 243;
+    --color-border: 224, 224, 224;
+    --variant-pills-radius: 10px;
+    --variant-pills-border-width: 1px;
+    --variant-pills-border-opacity: 0.4;
+    --variant-pills-shadow-opacity: 0.0;
+    --variant-pills-shadow-horizontal-offset: 0px;
+    --variant-pills-shadow-vertical-offset: 4px;
+    --variant-pills-shadow-blur-radius: 5px;
+    --color-background: 16, 16, 16;
+    --gradient-background: #101010;
+    --color-foreground: 255, 255, 255;
+    --color-background-contrast: 144, 144, 144;
+    --caption-color: 169, 169, 169;
+    --color-button: 221, 114, 16;
+    --color-button-text: 255, 255, 255;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 0, 0, 0;
+    --color-link: 255, 255, 255;
+    --color-link-hover: 221, 114, 16;
+    --payment-terms-background-color: rgb(16 16 16);
+    
+    --primary-color: #f9ab38;
+    --secondary-color: #052C05E7;
+    --tertiary-color: rgba(221,114,16,0.1);
+    --star-color: var(--primary-color);
+    --write-review-text-color: white;
+    --write-review-bg-color: var(--primary-color);
+    --paginate-color: var(--primary-color);
+    --border-radius: 0;
+    --reviewer-name-color: var(--primary-color);
+
+    --white-color: #FFF;
+    --grey-100: #f6f3f4;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Marcellus', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid var(--color-gray-50);
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    color: var(--white-color);
+
+    &::placeholder {
+        color: var(--white-color);
+    }
+
+    &:focus {
+        border-color: var(--primary-color);
+    }
+}
+
+.topbar {
+    background:  var(--gradient-background);
+}
+
+header li a:hover {
+    color: var(--primary-color);
+}
+
+.header-action:hover {
+    color: var(--primary-color);
+}
+
+.cart-badge {
+    background-color: var(--primary-color);
+    /* color: var(--color-black); */
+}
+
+.logo {
+    font-family: 'Marcellus', serif;
+}
+
+.hero-wrapper {
+    height: 90vh;
+}
+
+.hero-wrapper header {
+    background: transparent;
+}
+
+.btn {
+    border: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--color-black);
+}
+
+.section-label {
+    color: var(--primary-color);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    letter-spacing: var(--tracking-widest);
+    line-height: var(--tw-leading, var(--text-sm--line-height)); 
+    margin-bottom: calc(var(--spacing) * 4);
+    text-transform: uppercase;
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.primary-text, .hover-primary-text:hover {
+    color: var(--primary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+
+    .hero-wrapper {
+        height: 120vh;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    header {
+        padding: 10px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .testimonial-card {
+        width: 100% !important;
+    }
+}
