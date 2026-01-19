@@ -1,7 +1,5 @@
-import Hero from '../components/Sections/Hero';
+import StorySection from '../components/Sections/StorySection';
 import About from '../components/Sections/AboutSection';
-import Collection from '../components/Sections/Collection';
-import FAQ from '../components/Sections/FAQ';
 import Showcase from '../components/Sections/Showcase';
 import Carousel from '../components/Sections/Carousel';
 import Testimonials from '../components/Sections/Testimonials';
@@ -13,7 +11,7 @@ import Header from '../components/Layout/Header';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <div>
       <Topbar />
@@ -30,7 +28,8 @@ export default function Home() {
           </p>
         </div>
       </section>
-      
+
+      <StorySection />
 
       <About />
 

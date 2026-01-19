@@ -7,8 +7,8 @@ import { NavLink } from "react-router-dom";
 const linkClass = ({ isActive }) =>
   `uppercase tracking-wide transition ${
     isActive
-      ? "text-orange-500"
-      : "text-white hover:text-orange-500"
+      ? "text-[var(--primary-color)]"
+      : "text-white hover:text-[var(--primary-color)]"
   }`;
 
 const Header = () => {
@@ -39,18 +39,18 @@ const Header = () => {
 
                 {/* Desktop Actions */}
                 <div className="hidden sm:flex items-center space-x-3 sm:space-x-4 text-white">
-                    <Heart className="w-5 h-5 cursor-pointer hover:text-orange-500 transition" />
-                    <button className="relative cursor-pointer hover:text-orange-500 transition">
+                    <Heart className="w-5 h-5 cursor-pointer hover:text-[var(--primary-color)] transition" />
+                    <button className="relative cursor-pointer hover:text-[var(--primary-color)] transition">
                         <ShoppingCart className="w-5 h-5" />
-                        <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
+                        <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
                     </button>
-                    <a href="#"><User className="w-5 h-5 cursor-pointer hover:text-orange-500 transition" /></a>
+                    <a href="#"><User className="w-5 h-5 cursor-pointer hover:text-[var(--primary-color)] transition" /></a>
                 </div>
 
                 {/* Mobile Menu Button */}
                 <button
                     onClick={toggleMobileMenu}
-                    className="lg:hidden text-white p-2 hover:text-orange-500 transition"
+                    className="lg:hidden text-white p-2 hover:text-[var(--primary-color)] transition"
                     aria-label="Toggle menu"
                 >
                     {mobileMenuOpen ? (
@@ -68,20 +68,20 @@ const Header = () => {
                     }`}
             >
                 <nav className="px-4 py-6 space-y-4">
-                    <a href="#" className='block text-orange-500 font-medium uppercase tracking-wide py-2 border-b border-gray-700'>Home</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-orange-500 transition'>About</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-orange-500 transition'>Shop</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-orange-500 transition'>Blog</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-orange-500 transition'>Contact</a>
+                    <a href="#" className='block text-[var(--primary-color)] font-medium uppercase tracking-wide py-2 border-b border-gray-700'>Home</a>
+                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>About</a>
+                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Shop</a>
+                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Blog</a>
+                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Contact</a>
 
                     {/* Mobile Actions */}
                     <div className="flex items-center justify-center space-x-6 pt-4 sm:hidden">
-                        <Heart className="w-6 h-6 text-white cursor-pointer hover:text-orange-500 transition" />
-                        <button className="relative cursor-pointer text-white hover:text-orange-500 transition">
+                        <Heart className="w-6 h-6 text-white cursor-pointer hover:text-[var(--primary-color)] transition" />
+                        <button className="relative cursor-pointer text-white hover:text-[var(--primary-color)] transition">
                             <ShoppingCart className="w-6 h-6" />
-                            <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
+                            <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
                         </button>
-                        <a href="#"><User className="w-6 h-6 text-white cursor-pointer hover:text-orange-500 transition" /></a>
+                        <a href="#"><User className="w-6 h-6 text-white cursor-pointer hover:text-[var(--primary-color)] transition" /></a>
                     </div>
                 </nav>
             </div>

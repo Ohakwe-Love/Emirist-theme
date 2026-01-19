@@ -10,7 +10,7 @@ import Features from '../components/Sections/Features';
 import Topbar from '../components/Layout/Topbar';
 import Footer from '../components/Layout/Footer';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
       <Topbar />
