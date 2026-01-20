@@ -251,6 +251,10 @@ header li a:hover {
     background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url('/src/assets/images/hero/main.png') no-repeat center center/cover;
 }
 
+.shopPage-hero {
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url('/src/assets/images/hero/main2.png') no-repeat center center/cover;
+}
+
 @media (max-width: 768px) {
 
     .hero-wrapper {

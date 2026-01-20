@@ -18,7 +18,7 @@ const Collection = () => {
         {
             id: 1,
             name: 'Classic Chronograph',
-            price: 'Rs. 3,800.00',
+            price: '$ 3,800.00',
             category: 'CHRONOGRAPH WATCHES',
             image: '/src/assets/images/product/8.webp',
             badge: null
@@ -26,7 +26,7 @@ const Collection = () => {
         {
             id: 2,
             name: 'Heritage Automatic',
-            price: 'Rs. 4,300.00',
+            price: '$ 4,300.00',
             category: 'AUTOMATIC WATCHES',
             image: '/src/assets/images/product/4.webp',
             badge: 'NEW'
@@ -34,7 +34,7 @@ const Collection = () => {
         {
             id: 3,
             name: 'Elegant Dress Watch',
-            price: 'Rs. 3,400.00',
+            price: '$ 3,400.00',
             category: 'DRESS WATCHES',
             image: '/src/assets/images/product/5.webp',
             badge: 'SALE'
@@ -42,7 +42,7 @@ const Collection = () => {
         {
             id: 4,
             name: 'Professional Diver',
-            price: 'Rs. 3,850.00',
+            price: '$ 3,850.00',
             category: 'SPORTS WATCHES',
             image: '/src/assets/images/product/7.webp',
             badge: null
@@ -117,12 +117,19 @@ const Collection = () => {
                                     <p className="primary-text text-xs font-medium tracking-wider mb-2">
                                         {product.category}
                                     </p>
-                                    <h3 className="text-white hover-primary-tex text-lg font-serif mb-2 transition-colors">
+                                    <h3 className="text-white hover-[var(primary-color)] text-lg font-serif mb-2 transition-colors">
                                         {product.name}
                                     </h3>
-                                    <p className="text-gray-300 text-xl font-medium">
-                                        {product.price}
-                                    </p>
+
+                                    <div className="flex justify-between items-center text-[var(--primary-color)]">
+                                        <p className="text-gray-300 text-xl font-medium">
+                                            {product.price}
+                                        </p>
+
+                                        <button className='cursor-pointer'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-shopping-cart w-5 h-5" ariaHidden="true"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         ))}

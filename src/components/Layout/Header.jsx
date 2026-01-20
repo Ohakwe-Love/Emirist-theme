@@ -3,23 +3,27 @@ import React, { useState } from 'react';
 import Logo from '../Core/Logo';
 import { Heart, ShoppingCart, User, Menu, X } from 'lucide-react';
 import { NavLink } from "react-router-dom";
+import { useCart } from '../../context/CartContext';
+
 
 const linkClass = ({ isActive }) =>
-  `uppercase tracking-wide transition ${
-    isActive
-      ? "text-[var(--primary-color)]"
-      : "text-white hover:text-[var(--primary-color)]"
-  }`;
+    `uppercase tracking-wide transition ${isActive
+        ? "text-[var(--primary-color)]"
+        : "text-white hover:text-[var(--primary-color)]"
+    }`;
 
 const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const { getCartCount } = useCart();
+
 
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!mobileMenuOpen);
     };
 
     return (
-        <header className="relative top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 py-4 sm:py-6 bg-[#101010]">
+        <header className="left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 py-4 sm:py-6 bg-[#101010] sticky top-0">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* LOGO */}
                 <NavLink to='/' className='flex text-white items-center gap-2.5 text-3xl'>
@@ -40,10 +44,13 @@ const Header = () => {
                 {/* Desktop Actions */}
                 <div className="hidden sm:flex items-center space-x-3 sm:space-x-4 text-white">
                     <Heart className="w-5 h-5 cursor-pointer hover:text-[var(--primary-color)] transition" />
-                    <button className="relative cursor-pointer hover:text-[var(--primary-color)] transition">
+                    <NavLink to='/cart' className="relative cursor-pointer hover:text-[var(--primary-color)] transition">
                         <ShoppingCart className="w-5 h-5" />
-                        <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
-                    </button>
+                        <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-black text-[10px] font-medium w-4 h-4 rounded-full flex items-center justify-center">
+                            {getCartCount()}
+                        </span>
+                    </NavLink>
+
                     <a href="#"><User className="w-5 h-5 cursor-pointer hover:text-[var(--primary-color)] transition" /></a>
                 </div>
 
@@ -77,10 +84,12 @@ const Header = () => {
                     {/* Mobile Actions */}
                     <div className="flex items-center justify-center space-x-6 pt-4 sm:hidden">
                         <Heart className="w-6 h-6 text-white cursor-pointer hover:text-[var(--primary-color)] transition" />
-                        <button className="relative cursor-pointer text-white hover:text-[var(--primary-color)] transition">
-                            <ShoppingCart className="w-6 h-6" />
-                            <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
-                        </button>
+                        <NavLink to='/cart' className="relative cursor-pointer hover:text-[var(--primary-color)] transition text-white">
+                            <ShoppingCart className="w-5 h-5" />
+                            <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-black text-[10px] font-medium w-4 h-4 rounded-full flex items-center justify-center">
+                                {getCartCount()}
+                            </span>
+                        </NavLink>
                         <a href="#"><User className="w-6 h-6 text-white cursor-pointer hover:text-[var(--primary-color)] transition" /></a>
                     </div>
                 </nav>

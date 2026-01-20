@@ -81,7 +81,7 @@ const Hero = () => {
                                 </p>
                                 <a href="#" className="btn btn-primary gap-2 rounded inline-flex items-center">
                                     <span className="">Shop now</span>
-                                    <div className="ml-3 w-8 h-8 bg-[var(--secondary-color)] text-white rounded-full flex items-center justify-center">
+                                    <div className="ml-3 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center">
                                         <ArrowRight className='w-4.5 h-4.5' />
                                     </div>
                                 </a>
