@@ -12,6 +12,12 @@ const linkClass = ({ isActive }) =>
         : "text-white hover:text-[var(--primary-color)]"
     }`;
 
+const mobileNavLinkClass = ({ isActive }) =>
+    `${isActive
+        ? "text-[var(--primary-color)]"
+        : "text-white hover:text-[var(--primary-color)]"
+    } block font-medium uppercase tracking-wide py-2 border-b border-gray-700`;                   
+
 const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -37,7 +43,8 @@ const Header = () => {
 
                     <NavLink to="/about" className={linkClass}> About </NavLink>
                     <NavLink to="/shop" className={linkClass}> Shop </NavLink>
-                    <NavLink to="/blog" className={linkClass}> Blog </NavLink>
+                    {/* <NavLink to="/" className={linkClass}> Blog </NavLink> */}
+                    <NavLink to="/faq" className={linkClass}> Faq </NavLink>
                     <NavLink to="/contact" className={linkClass}> Contact </NavLink>
                 </nav>
 
@@ -75,11 +82,11 @@ const Header = () => {
                     }`}
             >
                 <nav className="px-4 py-6 space-y-4">
-                    <a href="#" className='block text-[var(--primary-color)] font-medium uppercase tracking-wide py-2 border-b border-gray-700'>Home</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>About</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Shop</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Blog</a>
-                    <a href="#" className='block text-white font-medium uppercase tracking-wide py-2 border-b border-gray-700 hover:text-[var(--primary-color)] transition'>Contact</a>
+                    <NavLink to="/" className={mobileNavLinkClass}> Home </NavLink>
+                    <NavLink to="/about" className={mobileNavLinkClass}> About </NavLink>
+                    <NavLink to="/shop" className={mobileNavLinkClass}> Shop </NavLink>
+                    <NavLink to="/faq" className={mobileNavLinkClass}> Faq </NavLink>
+                    <NavLink to="/contact" className={mobileNavLinkClass}> Contact </NavLink>
 
                     {/* Mobile Actions */}
                     <div className="flex items-center justify-center space-x-6 pt-4 sm:hidden">

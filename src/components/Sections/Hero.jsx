@@ -26,7 +26,7 @@ const Hero = () => {
             title: "Classic Design",
             subtitle: "And Modern Comfort",
             description: "Embrace timeless aesthetics with contemporary functionality. Premium leather straps and sapphire crystal faces. Elegance that transcends fleeting trends and seasons.",
-            bg: "/src/assets/images/hero/hero3.webp"
+            bg: "/src/assets/images/hero/hero4.webp"
         }
     ];
 
@@ -37,18 +37,19 @@ const Hero = () => {
         return () => clearInterval(timer);
     }, []);
 
-    const nextSlide = () => {
-        setCurrentSlide((prev) => (prev + 1) % slides.length);
-    };
+    // const nextSlide = () => {
+    //     setCurrentSlide((prev) => (prev + 1) % slides.length);
+    // };
 
-    const prevSlide = () => {
-        setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-    };
+    // const prevSlide = () => {
+    //     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+    // };
 
     return (
         <section className="relative w-full hero-wrapper hero-wrapper overflow-hidden bg-slate-700">
             <div className="relative w-full h-full">
                 <Header />
+
                 {slides.map((slide, index) => (
                     <div
                         key={index}

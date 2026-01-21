@@ -32,7 +32,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-slate-800 to-slate-900 py-20 px-8 border-t border-slate-700">
+    <section className="bg-gradient-to-b from-slate-800 to-slate-900 py-20 lg:px-8 px-2 border-t border-slate-700">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
 

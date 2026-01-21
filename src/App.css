@@ -16,127 +16,6 @@
     --font-body-scale: 1;
     --font-base-size: 16px;
     --font-additional-family: Nunito, sans-serif;
-    --font-additional-heading-style: normal;
-    --font-additional-heading-weight: 400;
-    --media-padding: px;
-    --media-border-opacity: 0.0;
-    --media-border-width: 0px;
-    --media-radius: 10px;
-    --media-shadow-opacity: 0.0;
-    --media-shadow-horizontal-offset: 0px;
-    --media-shadow-vertical-offset: 4px;
-    --media-shadow-blur-radius: 5px;
-    --page-width: 164rem;
-    --page-width-laptop: 120rem;
-    --page-width-tab: 100rem;
-    --page-full-width-spacing: 4%;
-    --page-width-margin: 0rem;
-    --product-card-image-padding: 0.0rem;
-    --product-card-content-padding: 1.0rem;
-    --product-card-corner-radius: 1.0rem;
-    --product-card-text-alignment: center;
-    --product-card-border-width: 0.0rem;
-    --product-card-border-opacity: 0.0;
-    --product-card-shadow-opacity: 0.0;
-    --product-card-shadow-visible: 0;
-    --product-card-shadow-horizontal-offset: 0.0rem;
-    --product-card-shadow-vertical-offset: 0.0rem;
-    --product-card-shadow-blur-radius: 3.0rem;
-    --collection-card-image-padding: 0.0rem;
-    --collection-card-content-padding: 1.0rem;
-    --collection-card-corner-radius: 1.0rem;
-    --collection-card-text-alignment: center;
-    --collection-card-border-width: 0.0rem;
-    --collection-card-border-opacity: 0.0;
-    --collection-card-shadow-opacity: 0.0;
-    --collection-card-shadow-visible: 0;
-    --collection-card-shadow-horizontal-offset: 0.0rem;
-    --collection-card-shadow-vertical-offset: 0.0rem;
-    --collection-card-shadow-blur-radius: 0.0rem;
-    --blog-card-image-padding: 0.0rem;
-    --blog-card-content-padding: 1.0rem;
-    --blog-card-corner-radius: 1.0rem;
-    --blog-card-text-alignment: left;
-    --blog-card-border-width: 0.0rem;
-    --blog-card-border-opacity: 0.0;
-    --blog-card-shadow-opacity: 0.0;
-    --blog-card-shadow-visible: 0;
-    --blog-card-shadow-horizontal-offset: 0.0rem;
-    --blog-card-shadow-vertical-offset: 0.0rem;
-    --blog-card-shadow-blur-radius: 0.0rem;
-    --badge-corner-radius: 0.6rem;
-    --sale_badge_color: 221, 114, 16;
-    --soldout_badge_color: 221, 114, 16;
-    --sale_badge_color_text: 255, 255, 255;
-    --soldout_badge_color_text: 255, 255, 255;
-    --new_badge_color: 18, 18, 18;
-    --new_badge_color_text: 255, 255, 255;
-    --popup-border-width: 0px;
-    --popup-border-opacity: 0.0;
-    --popup-corner-radius: 10px;
-    --popup-shadow-opacity: 0.3;
-    --popup-shadow-horizontal-offset: 0px;
-    --popup-shadow-vertical-offset: 4px;
-    --popup-shadow-blur-radius: 10px;
-    --drawer-border-width: 1px;
-    --drawer-border-opacity: 0.45;
-    --drawer-shadow-opacity: 0.0;
-    --drawer-shadow-horizontal-offset: 0px;
-    --drawer-shadow-vertical-offset: 4px;
-    --drawer-shadow-blur-radius: 0px;
-    --spacing-sections-desktop: 0px;
-    --spacing-sections-mobile: 0px;
-    --grid-desktop-vertical-spacing: 20px;
-    --grid-desktop-horizontal-spacing: 20px;
-    --grid-mobile-vertical-spacing: 10px;
-    --grid-mobile-horizontal-spacing: 10px;
-    --sidebar-width: 410px;
-    --text-boxes-border-opacity: 0.1;
-    --text-boxes-border-width: 0px;
-    --text-boxes-radius: 0px;
-    --text-boxes-shadow-opacity: 0.0;
-    --text-boxes-shadow-horizontal-offset: 0px;
-    --text-boxes-shadow-vertical-offset: 4px;
-    --text-boxes-shadow-blur-radius: 5px;
-    --buttons-radius: 30px;
-    --buttons-radius-outset: 30px;
-    --buttons-border-width: 0px;
-    --buttons-border-opacity: 0.0;
-    --buttons-shadow-opacity: 0.0;
-    --buttons-shadow-horizontal-offset: 0px;
-    --buttons-shadow-vertical-offset: 0px;
-    --buttons-shadow-blur-radius: 0px;
-    --buttons-border-offset: 0px;
-    --inputs-radius: 30px;
-    --inputs-border-width: 1px;
-    --inputs-border-opacity: 0.0;
-    --inputs-shadow-opacity: 0.0;
-    --inputs-shadow-horizontal-offset: 0px;
-    --inputs-margin-offset: 0px;
-    --inputs-shadow-vertical-offset: 0px;
-    --inputs-shadow-blur-radius: 0px;
-    --inputs-radius-outset: 31px;
-    --color-input: 243, 243, 243;
-    --color-border: 224, 224, 224;
-    --variant-pills-radius: 10px;
-    --variant-pills-border-width: 1px;
-    --variant-pills-border-opacity: 0.4;
-    --variant-pills-shadow-opacity: 0.0;
-    --variant-pills-shadow-horizontal-offset: 0px;
-    --variant-pills-shadow-vertical-offset: 4px;
-    --variant-pills-shadow-blur-radius: 5px;
-    --color-background: 16, 16, 16;
-    --gradient-background: #101010;
-    --color-foreground: 255, 255, 255;
-    --color-background-contrast: 144, 144, 144;
-    --caption-color: 169, 169, 169;
-    --color-button: 221, 114, 16;
-    --color-button-text: 255, 255, 255;
-    --color-secondary-button: 255, 255, 255;
-    --color-secondary-button-text: 0, 0, 0;
-    --color-link: 255, 255, 255;
-    --color-link-hover: 221, 114, 16;
-    --payment-terms-background-color: rgb(16 16 16);
     
     --primary-color: #f9ab38;
     --secondary-color: #052C05E7;
@@ -158,11 +37,23 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: var(--font-body-family);
 }
 
 h1, h2, h3 {
-  font-family: 'Marcellus', serif;
+  font-family: var(--font-heading-family);
+}
+
+h1 {
+    font-size: var(--font-h1-size);
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+}
+
+h2 {
+    font-size: var(--font-h2-size);
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
 }
 
 .container {
@@ -198,7 +89,6 @@ header li a:hover {
 
 .cart-badge {
     background-color: var(--primary-color);
-    /* color: var(--color-black); */
 }
 
 .logo {

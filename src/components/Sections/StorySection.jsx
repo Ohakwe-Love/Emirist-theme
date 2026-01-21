@@ -79,7 +79,7 @@ const AboutStatsSection = () => {
             </div>
             
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-[var(--primary-color)] text-white p-8 rounded-2xl shadow-2xl">
+            <div className="absolute -bottom-6 lg:-right-6 bg-[var(--primary-color)] text-white p-8 rounded-2xl shadow-2xl -right-2">
               <p className="text-5xl font-bold mb-1">35+</p>
               <p className="text-sm font-medium">Years Experience</p>
             </div>

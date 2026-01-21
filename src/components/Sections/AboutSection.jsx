@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 
 const ShowcaseSection = () => {
     return (
-        <section className="bg-gradient-to-b from-slate-800 to-slate-900 py-20 px-8 text-white py-20 px-8">
+        <section className="bg-linear-to-b from-slate-800 to-slate-900 text-white py-20 px-2 sm:px-8 lg:px-20">
             <div className="container">
                 {/* Double Image Grid */}
                 <div className="grid md:grid-cols-2 gap-8 items-start">

@@ -13,7 +13,7 @@ const Showcase = () => {
   ];
 
   return (
-    <section className="bg-black py-20 px-8">
+    <section className="bg-black py-20 lg:px-8 px-2">
       <div className="max-w-7xl mx-auto">
 
         {/* Section Header */}

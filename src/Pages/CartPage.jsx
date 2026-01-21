@@ -130,9 +130,9 @@ export default function CartPage() {
                                 </div>
                             </div>
 
-                            <button className="w-full bg-[var(--primary-color)] text-black py-3 rounded-lg font-medium hover:bg-[var(--primary-color)]/90 transition mb-3">
+                            <Link to="/checkout" className="w-full bg-[var(--primary-color)] text-black py-3 rounded-lg font-medium hover:bg-[var(--primary-color)]/90 transition mb-3 inline-block text-center">
                                 Proceed to Checkout
-                            </button>
+                            </Link>
 
                             <button
                                 onClick={clearCart}

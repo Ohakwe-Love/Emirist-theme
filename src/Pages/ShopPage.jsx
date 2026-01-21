@@ -8,18 +8,18 @@ import { Link } from 'react-router-dom';
 
 // Products data
 const allProducts = [
-    { id: 1, name: 'Classic Chronograph', price: '3800.00', category: 'Chronograph', brand: 'Swiss Master', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop', badge: 'NEW' },
-    { id: 2, name: 'Heritage Automatic', price: '4300.00', category: 'Automatic', brand: 'Italian Elegance', image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop', badge: null },
-    { id: 3, name: 'Elegant Dress Watch', price: '3400.00', category: 'Dress', brand: 'German Precision', image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop', badge: 'SALE' },
-    { id: 4, name: 'Professional Diver', price: '3850.00', category: 'Sports', brand: 'Japanese Innovation', image: 'https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&h=600&fit=crop', badge: null },
-    { id: 5, name: 'Vintage Timepiece', price: '4500.00', category: 'Dress', brand: 'Swiss Master', image: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop', badge: 'NEW' },
-    { id: 6, name: 'Sport Chronograph', price: '3900.00', category: 'Sports', brand: 'German Precision', image: 'https://images.unsplash.com/photo-1587836374182-f78b2c2e8d5f?w=600&h=600&fit=crop', badge: null },
-    { id: 7, name: 'Luxury Automatic', price: '5200.00', category: 'Automatic', brand: 'Italian Elegance', image: 'https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop', badge: null },
-    { id: 8, name: 'Modern Classic', price: '3600.00', category: 'Chronograph', brand: 'Japanese Innovation', image: 'https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop', badge: 'SALE' },
-    { id: 9, name: 'Executive Gold', price: '6200.00', category: 'Dress', brand: 'Swiss Master', image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop', badge: 'NEW' },
-    { id: 10, name: 'Racing Chrono', price: '4100.00', category: 'Sports', brand: 'Italian Elegance', image: 'https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=600&h=600&fit=crop', badge: null },
-    { id: 11, name: 'Skeleton Auto', price: '4800.00', category: 'Automatic', brand: 'German Precision', image: 'https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=600&h=600&fit=crop', badge: null },
-    { id: 12, name: 'Minimalist Steel', price: '2900.00', category: 'Dress', brand: 'Japanese Innovation', image: 'https://images.unsplash.com/photo-1533139142390-e5cb0b6f9b7b?w=600&h=600&fit=crop', badge: 'SALE' }
+    { id: 1, name: 'Classic Chronograph', price: '3800.00', category: 'Chronograph', brand: 'Swiss Master', image: '/src/assets/images/product/8.webp', badge: 'NEW' },
+    { id: 2, name: 'Heritage Automatic', price: '4300.00', category: 'Automatic', brand: 'Italian Elegance', image: '/src/assets/images/product/4.webp', badge: null },
+    { id: 3, name: 'Elegant Dress Watch', price: '3400.00', category: 'Dress', brand: 'German Precision', image: '/src/assets/images/product/5.webp', badge: 'SALE' },
+    { id: 4, name: 'Professional Diver', price: '3850.00', category: 'Sports', brand: 'Japanese Innovation', image: '/src/assets/images/product/6.webp', badge: null },
+    { id: 5, name: 'Vintage Timepiece', price: '4500.00', category: 'Dress', brand: 'Swiss Master', image: 'src/assets/images/product/12.webp', badge: 'NEW' },
+    { id: 6, name: 'Sport Chronograph', price: '3900.00', category: 'Sports', brand: 'German Precision', image: 'src/assets/images/product/3.webp', badge: null },
+    { id: 7, name: 'Luxury Automatic', price: '5200.00', category: 'Automatic', brand: 'Italian Elegance', image: 'src/assets/images/product/13.webp', badge: null },
+    { id: 8, name: 'Modern Classic', price: '3600.00', category: 'Chronograph', brand: 'Japanese Innovation', image: '/src/assets/images/product/1.webp', badge: 'SALE' },
+    { id: 9, name: 'Executive Gold', price: '6200.00', category: 'Dress', brand: 'Swiss Master', image: 'src/assets/images/product/14.webp', badge: 'NEW' },
+    { id: 10, name: 'Racing Chrono', price: '4100.00', category: 'Sports', brand: 'Italian Elegance', image: 'src/assets/images/product/15.webp', badge: null },
+    { id: 11, name: 'Skeleton Auto', price: '4800.00', category: 'Automatic', brand: 'German Precision', image: 'src/assets/images/product/16.webp', badge: null },
+    { id: 12, name: 'Minimalist Steel', price: '2900.00', category: 'Dress', brand: 'Japanese Innovation', image: 'src/assets/images/product/17.webp', badge: 'SALE' }
 ];
 
 // ProductCard component
@@ -169,7 +169,7 @@ export default function ShopPage() {
 
             <section className="flex items-center page-hero shopPage-hero justify-center h-110 group overflow-hidden relative ">
                 <div className="text-center">
-                    <h1 className="text-5xl font-serif text-white mb-4">Explore our Collection</h1>
+                    <h2 className="text-5xl font-serif text-white mb-4">Explore our Collection</h2>
 
                     <p className='text-2xl'>
                         <Link to='/' className='text-white hover:text-[var(--primary-color)] transition'>Home</Link>
@@ -411,7 +411,7 @@ export default function ShopPage() {
                                     <div className="text-center">
                                         <button
                                             onClick={handleLoadMore}
-                                            className="px-8 py-3 bg-[var(--primary-color)] text-black rounded-lg hover:bg-[var(--primary-color)]/90 transition font-medium"
+                                            className="px-8 cursor-pointer py-3 bg-[var(--primary-color)] text-black rounded-lg hover:bg-[var(--primary-color)]/90 transition font-medium"
                                         >
                                             Load More
                                         </button>

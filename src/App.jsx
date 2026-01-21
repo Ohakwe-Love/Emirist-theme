@@ -9,8 +9,10 @@ import ContactPage from "./Pages/ContactPage";
 import ShopPage from "./Pages/ShopPage";
 import CartPage from "./Pages/CartPage";
 import CheckoutPage from "./Pages/CheckoutPage";
-import BlogPage from "./Pages/BlogPage";
+// import BlogPage from "./Pages/BlogPage";
+import FaqPage from "./Pages/FaqPage";
 import { CartProvider } from './context/CartContext';
+import NotFoundPage from "./Pages/NotFoundPage";
 
 
 function App() {
@@ -23,8 +25,12 @@ function App() {
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          {/* <Route path="/blog" element={<BlogPage />} /> */}
+          <Route path="/faq" element={<FaqPage />} />
           <Route path="/contact" element={<ContactPage />} />
+
+          <Route path="*" element={<NotFoundPage />} />
+
         </Routes>
       </CartProvider>
     </BrowserRouter>
