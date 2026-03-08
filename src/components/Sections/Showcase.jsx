@@ -34,12 +34,12 @@ const Showcase = () => {
         <div className="relative mb-16 group">
           <div className="relative overflow-hidden rounded-2xl">
             {/* <img
-              src="/src/assets/images/product/1.webp"
+              src="/images/product/1.webp"
               alt="Luxury Watch Showcase"
               className="w-full h-[500px] object-cover"
             /> */}
 
-            <video src="/src/assets/images/clips/1.mp4" className="w-full h-[500px] object-cover" loop muted autoPlay
+            <video src="/images/clips/1.mp4" className="w-full h-[500px] object-cover" loop muted autoPlay
             ></video>
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
 

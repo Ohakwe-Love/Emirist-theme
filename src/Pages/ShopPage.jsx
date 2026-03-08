@@ -8,18 +8,18 @@ import { Link } from 'react-router-dom';
 
 // Products data
 const allProducts = [
-    { id: 1, name: 'Classic Chronograph', price: '3800.00', category: 'Chronograph', brand: 'Swiss Master', image: '/src/assets/images/product/8.webp', badge: 'NEW' },
-    { id: 2, name: 'Heritage Automatic', price: '4300.00', category: 'Automatic', brand: 'Italian Elegance', image: '/src/assets/images/product/4.webp', badge: null },
-    { id: 3, name: 'Elegant Dress Watch', price: '3400.00', category: 'Dress', brand: 'German Precision', image: '/src/assets/images/product/5.webp', badge: 'SALE' },
-    { id: 4, name: 'Professional Diver', price: '3850.00', category: 'Sports', brand: 'Japanese Innovation', image: '/src/assets/images/product/6.webp', badge: null },
-    { id: 5, name: 'Vintage Timepiece', price: '4500.00', category: 'Dress', brand: 'Swiss Master', image: 'src/assets/images/product/12.webp', badge: 'NEW' },
-    { id: 6, name: 'Sport Chronograph', price: '3900.00', category: 'Sports', brand: 'German Precision', image: 'src/assets/images/product/3.webp', badge: null },
-    { id: 7, name: 'Luxury Automatic', price: '5200.00', category: 'Automatic', brand: 'Italian Elegance', image: 'src/assets/images/product/13.webp', badge: null },
-    { id: 8, name: 'Modern Classic', price: '3600.00', category: 'Chronograph', brand: 'Japanese Innovation', image: '/src/assets/images/product/1.webp', badge: 'SALE' },
-    { id: 9, name: 'Executive Gold', price: '6200.00', category: 'Dress', brand: 'Swiss Master', image: 'src/assets/images/product/14.webp', badge: 'NEW' },
-    { id: 10, name: 'Racing Chrono', price: '4100.00', category: 'Sports', brand: 'Italian Elegance', image: 'src/assets/images/product/15.webp', badge: null },
-    { id: 11, name: 'Skeleton Auto', price: '4800.00', category: 'Automatic', brand: 'German Precision', image: 'src/assets/images/product/16.webp', badge: null },
-    { id: 12, name: 'Minimalist Steel', price: '2900.00', category: 'Dress', brand: 'Japanese Innovation', image: 'src/assets/images/product/17.webp', badge: 'SALE' }
+    { id: 1, name: 'Classic Chronograph', price: '3800.00', category: 'Chronograph', brand: 'Swiss Master', image: '/images/product/8.webp', badge: 'NEW' },
+    { id: 2, name: 'Heritage Automatic', price: '4300.00', category: 'Automatic', brand: 'Italian Elegance', image: '/images/product/4.webp', badge: null },
+    { id: 3, name: 'Elegant Dress Watch', price: '3400.00', category: 'Dress', brand: 'German Precision', image: '/images/product/5.webp', badge: 'SALE' },
+    { id: 4, name: 'Professional Diver', price: '3850.00', category: 'Sports', brand: 'Japanese Innovation', image: '/images/product/6.webp', badge: null },
+    { id: 5, name: 'Vintage Timepiece', price: '4500.00', category: 'Dress', brand: 'Swiss Master', image: '/images/product/12.webp', badge: 'NEW' },
+    { id: 6, name: 'Sport Chronograph', price: '3900.00', category: 'Sports', brand: 'German Precision', image: '/images/product/3.webp', badge: null },
+    { id: 7, name: 'Luxury Automatic', price: '5200.00', category: 'Automatic', brand: 'Italian Elegance', image: '/images/product/13.webp', badge: null },
+    { id: 8, name: 'Modern Classic', price: '3600.00', category: 'Chronograph', brand: 'Japanese Innovation', image: '/images/product/1.webp', badge: 'SALE' },
+    { id: 9, name: 'Executive Gold', price: '6200.00', category: 'Dress', brand: 'Swiss Master', image: '/images/product/14.webp', badge: 'NEW' },
+    { id: 10, name: 'Racing Chrono', price: '4100.00', category: 'Sports', brand: 'Italian Elegance', image: '/images/product/15.webp', badge: null },
+    { id: 11, name: 'Skeleton Auto', price: '4800.00', category: 'Automatic', brand: 'German Precision', image: '/images/product/16.webp', badge: null },
+    { id: 12, name: 'Minimalist Steel', price: '2900.00', category: 'Dress', brand: 'Japanese Innovation', image: '/images/product/17.webp', badge: 'SALE' }
 ];
 
 // ProductCard component

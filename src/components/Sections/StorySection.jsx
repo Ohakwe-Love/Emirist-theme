@@ -63,21 +63,21 @@ const AboutStatsSection = () => {
   return (
     <section className="bg-black py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* About Section */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
-          
+
           {/* Left - Image */}
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="/src/assets/images/about/1.jpg"
+                src="/images/about/1.jpg"
                 alt="Luxury Watches"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
             </div>
-            
+
             {/* Floating Badge */}
             <div className="absolute -bottom-6 lg:-right-6 bg-[var(--primary-color)] text-white p-8 rounded-2xl shadow-2xl -right-2">
               <p className="text-5xl font-bold mb-1">35+</p>
@@ -99,7 +99,7 @@ const AboutStatsSection = () => {
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
               Each watch in our collection represents the perfect fusion of Swiss engineering and contemporary design. We don't just sell watches; we offer timeless companions that mark life's most precious moments.
             </p>
-            
+
             {/* Key Features */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="flex items-start gap-3">
@@ -143,7 +143,7 @@ const AboutStatsSection = () => {
         <div ref={sectionRef} className="relative">
           <div className="absolute inset-0 overflow-hidden rounded-2xl">
             <img
-              src="/src/assets/images/about/2.jpg"
+              src="/images/about/2.jpg"
               alt="Background"
               className="w-full h-full object-cover"
             />

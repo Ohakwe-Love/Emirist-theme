@@ -10,7 +10,7 @@ const Testimonials = () => {
             id: 1,
             name: "Alexander Chen",
             role: "Investment Banker",
-            image: "/src/assets/images/testimonials/avatar-1.jpg",
+            image: "/images/Testimonials/avatar-1.jpg",
             rating: 5,
             text: "The craftsmanship is absolutely remarkable. My Emirist chronograph has become my daily companion. The attention to detail and the smooth movement make it worth every penny. I've received countless compliments.",
             featured: true
@@ -19,7 +19,7 @@ const Testimonials = () => {
             id: 2,
             name: "Sophia Martinez",
             role: "Fashion Designer",
-            image: "/src/assets/images/testimonials/avatar-2.jpg",
+            image: "/images/Testimonials/avatar-2.jpg",
             rating: 5,
             text: "Elegance redefined! The watch I purchased from Emirist perfectly complements my style. It's not just a timepiece; it's a statement. The quality is unmatched.",
             featured: false
@@ -28,7 +28,7 @@ const Testimonials = () => {
             id: 3,
             name: "James Richardson",
             role: "Entrepreneur",
-            image: "/src/assets/images/testimonials/avatar-3.jpg",
+            image: "/images/Testimonials/avatar-3.jpg",
             rating: 5,
             text: "I've been collecting watches for over 15 years, and Emirist stands out. The Swiss movement is impeccable, and the customer service exceeded my expectations. Highly recommend!",
             featured: false

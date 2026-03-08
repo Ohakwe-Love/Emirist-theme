@@ -20,7 +20,7 @@ const Collection = () => {
             name: 'Classic Chronograph',
             price: '$ 3,800.00',
             category: 'CHRONOGRAPH WATCHES',
-            image: '/src/assets/images/product/8.webp',
+            image: '/images/product/8.webp',
             badge: null
         },
         {
@@ -28,7 +28,7 @@ const Collection = () => {
             name: 'Heritage Automatic',
             price: '$ 4,300.00',
             category: 'AUTOMATIC WATCHES',
-            image: '/src/assets/images/product/4.webp',
+            image: '/images/product/4.webp',
             badge: 'NEW'
         },
         {
@@ -36,7 +36,7 @@ const Collection = () => {
             name: 'Elegant Dress Watch',
             price: '$ 3,400.00',
             category: 'DRESS WATCHES',
-            image: '/src/assets/images/product/5.webp',
+            image: '/images/product/5.webp',
             badge: 'SALE'
         },
         {
@@ -44,7 +44,7 @@ const Collection = () => {
             name: 'Professional Diver',
             price: '$ 3,850.00',
             category: 'SPORTS WATCHES',
-            image: '/src/assets/images/product/7.webp',
+            image: '/images/product/7.webp',
             badge: null
         }
     ];

@@ -32,9 +32,9 @@ const Footer = () => {
     };
 
     // const paymentMethods = [
-    //     { name: 'Razorpay', img: '/src/assets/images/payment/razorpay.png' },
-    //     { name: 'Stripe', img: '/src/assets/images/payment/stripe.svg' },
-    //     { name: 'PayPal', img: '/src/assets/images/payment/paypal.png' },
+    //     { name: 'Razorpay', img: '/images/payment/razorpay.png' },
+    //     { name: 'Stripe', img: '/images/payment/stripe.svg' },
+    //     { name: 'PayPal', img: '/images/payment/paypal.png' },
     // ];
 
     const toggleSection = (section) => {
@@ -128,7 +128,7 @@ const Footer = () => {
                             <ul className="space-y-3">
                                 {footerLinks.about.map((link, index) => (
                                     <li key={index}>
-                                        <a href={link.href} className="text-gray-400 hover:text-[var(--primary-color)] transition-colors text-sm block">
+                                        <a href={link.href} className="text-gray-400 hover:text-(--primary-color) transition-colors text-sm block">
                                             {link.label}
                                         </a>
                                     </li>
@@ -157,7 +157,7 @@ const Footer = () => {
                             <ul className="space-y-3">
                                 {footerLinks.information.map((link, index) => (
                                     <li key={index}>
-                                        <a href={link.href} className="text-gray-400 hover:text-[var(--primary-color)] transition-colors text-sm block">
+                                        <a href={link.href} className="text-gray-400 hover:text-(--primary-color) transition-colors text-sm block">
                                             {link.label}
                                         </a>
                                     </li>
@@ -202,7 +202,7 @@ const Footer = () => {
                     {/* Copyright */}
                     <p className="text-gray-400 text-sm text-center sm:text-center w-full">
                         All Right Reserved © {new Date().getFullYear()} Emirist. Built with ❤️ by
-                        <a href="https://www.devove.dev" target="_blank" rel="noopener noreferrer" className="text-[var(--primary-color)] hover:underline"> Devove</a>.
+                        <a href="https://www.devove.dev" target="_blank" rel="noopener noreferrer" className="text-(--primary-color) hover:underline"> Devove</a>.
                     </p>
 
                     {/* Payment Methods */}

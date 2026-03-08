@@ -12,21 +12,21 @@ const Hero = () => {
             title: "Timeless Elegance",
             subtitle: "And Precision",
             description: "Discover our collection of meticulously crafted timepieces. Each watch embodies Swiss precision and contemporary design. Where heritage meets innovation in perfect harmony.",
-            bg: "/src/assets/images/hero/hero1.webp"
+            bg: "/images/hero/hero1.webp"
         },
         {
             category: "LUXURY COLLECTION",
             title: "Swiss Mastery",
             subtitle: "And Innovation",
             description: "Experience the pinnacle of horological excellence. Our curated selection features automatic movements and premium materials. Defining sophistication for the modern connoisseur.",
-            bg: "/src/assets/images/hero/hero2.webp"
+            bg: "/images/hero/hero2.webp"
         },
         {
             category: "HERITAGE",
             title: "Classic Design",
             subtitle: "And Modern Comfort",
             description: "Embrace timeless aesthetics with contemporary functionality. Premium leather straps and sapphire crystal faces. Elegance that transcends fleeting trends and seasons.",
-            bg: "/src/assets/images/hero/hero4.webp"
+            bg: "/images/hero/hero4.webp"
         }
     ];
 

@@ -17,7 +17,7 @@ const NewsLetter = () => {
       {/* Hero Image Section */}
       <div className="relative h-[400px] sm:h-[500px] lg:h-[600px]">
         <img
-          src="/src/assets/images/product/8.webp"
+          src="/images/product/8.webp"
           alt="Luxury Watches"
           className="w-full h-full object-cover"
         />

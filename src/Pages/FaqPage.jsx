@@ -88,7 +88,7 @@ export default function FaqPage() {
                             {/* Image */}
                             <div className="rounded-xl overflow-hidden">
                                 <img
-                                    src="/src/assets/images/product/5.webp"
+                                    src="/images/product/5.webp"
                                     alt="Luxury Watch"
                                     className="w-full h-80 object-cover"
                                 />

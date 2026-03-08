@@ -27,7 +27,7 @@ const ShowcaseSection = () => {
 
                         <div className='relative group overflow-hidden rounded-lg mb-8'>
                             <img
-                                src="/src/assets/images/product/1.webp"
+                                src="/images/product/1.webp"
                                 alt="Modern Watch Display"
                                 className="w-full h-[500px] rounded object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -41,7 +41,7 @@ const ShowcaseSection = () => {
                         {/* Right Image */}
                         <div className="relative group overflow-hidden rounded-lg mb-8">
                             <img
-                                src="/src/assets/images/product/3.webp"
+                                src="/images/product/3.webp"
                                 alt="Luxury Watch Collection"
                                 className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
                             />
